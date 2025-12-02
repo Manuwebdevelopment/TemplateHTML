@@ -1,0 +1,416 @@
+{
+  "brand": {
+    "name": "Grounddown Construction",
+    "fallbackInitials": "HS",
+    "tagline": "Professional Home Services London",
+    "logo": {
+      "display": "image",
+      "url": "assets/logo/logo-placeholder.jpeg",
+      "alt": "Grounddown Construction logo"
+    },
+    "colors": {
+      "primary": "#1e3a8a",
+      "secondary": "#1e40af",
+      "accent": "#f97316",
+      "accentAlt": "#38bdf8",
+      "background": "#ffffff",
+      "text": "#1f2937",
+      "muted": "#4b5563",
+      "gradientStart": "#1e3a8a",
+      "gradientEnd": "#1e40af"
+    }
+  },
+  "assets": {
+    "heroBackground": "assets/images/hero-background.jpeg",
+    "favicon": "assets/icons/favicon.jpeg",
+    "logo": "assets/logo/logo-placeholder.jpeg"
+  },
+  "navigation": {
+    "items": [
+      { "label": "Home", "href": "index.html" },
+      { "label": "Services", "href": "services.html" },
+      { "label": "Areas", "href": "areas.html" },
+      { "label": "Reviews", "href": "reviews.html" },
+      { "label": "Projects", "href": "projects.html" },
+      { "label": "About", "href": "about.html" },
+      { "label": "FAQs", "href": "faqs.html" },
+      { "label": "Contact", "href": "contact.html" }
+    ],
+    "mobileCta": {
+      "callLabel": "Call Now",
+      "quoteLabel": "Get Quote",
+      "menuLabel": "☰"
+    }
+  },
+  "contact": {
+    "phoneDisplay": "020 1234 5678",
+    "phoneHref": "+442012345678",
+    "secondaryPhone": "+447724915451",
+    "email": "info@grounddownconstruction.com",
+    "address": "23 Beckenham Rd, Beckenham BR3 4FE",
+    "serviceArea": "Greater London & Surrounding Areas",
+    "serviceAreaShort": "Serving South East London for 15+ years"
+  },
+  "social": {
+    "facebook": "#",
+    "linkedin": "#",
+    "x": "#",
+    "googleBusiness": "#"
+  },
+  "seo": {
+    "defaultTitle": "Professional Home Services London",
+    "defaultDescription": "Professional home services across Greater London. Same-day emergency repairs, fully licensed & insured.",
+    "pages": {
+      "home": {
+        "title": "Professional Home Services London | Plumbing, Electrical & More",
+        "description": "Professional home services across Greater London. Same-day emergency repairs, fully licensed & insured. Call 020 1234 5678 for free quotes. 15+ years experience."
+      },
+      "services": {
+        "title": "Our Services | Professional Home Services London",
+        "description": "Professional home services including resin driveways, block paving, tarmac, groundwork, and excavation. Free quotes across Greater London. Call 020 1234 5678."
+      },
+      "areas": {
+        "title": "Areas We Serve | Professional Home Services London",
+        "description": "We serve Greater London including Camden, Islington, Greenwich, Croydon, Bromley, and many more areas. Check if we cover your location."
+      },
+      "reviews": {
+        "title": "Customer Reviews | Professional Home Services London",
+        "description": "Read customer reviews and testimonials. 5/5 stars from 104+ reviews. See why customers across South London trust us with their groundwork projects."
+      },
+      "projects": {
+        "title": "Recent Jobs | Professional Home Services London",
+        "description": "View our recent completed projects including resin driveways, block paving, and tarmac installations across Greater London. Quality workmanship you can trust."
+      },
+      "about": {
+        "title": "About Us | Professional Home Services London",
+        "description": "Learn about Grounddown Construction - trusted local experts serving Greater London for over 15 years. Fully licensed, insured, and committed to quality workmanship."
+      },
+      "faqs": {
+        "title": "FAQs | Professional Home Services London",
+        "description": "Frequently asked questions about our home services, pricing, coverage areas, and guarantees."
+      },
+      "contact": {
+        "title": "Contact Us | Professional Home Services London",
+        "description": "Contact us for free quotes on home services across Greater London. Call 020 1234 5678 or fill out our form. Available 24/7 for emergencies."
+      }
+    }
+  },
+  "footer": {
+    "companyName": "Grounddown Construction",
+    "registered": "Registered Company: Example Ltd",
+    "vat": "VAT Number: GB000000000",
+    "serviceArea": "Serving South East London",
+    "serviceYears": "Serving South East London for 15+ years",
+    "quickLinks": ["Services", "Areas", "Reviews", "Projects", "About", "FAQs", "Contact", "Emergency"],
+    "legalLinks": ["Privacy Policy", "Cookie Policy", "Terms & Conditions", "Accessibility", "Review Policy"],
+    "socialText": "Follow Us",
+    "reviewBlurb": [
+      "\"Great service excellent communication, clean and very professional\" — Customer Review, South London",
+      "\"If I could rate 10 stars I would, as I am a very happy customer\" — Verified Customer, Beckenham",
+      "\"Excellent workmanship and professional service throughout\" — Local Resident, Croydon"
+    ],
+    "rating": {
+      "stars": "⭐⭐⭐⭐⭐",
+      "summary": "5/5 from 104+ reviews",
+      "ctaLabel": "View on Google ↗",
+      "ctaHref": "#"
+    }
+  },
+  "cta": {
+    "primary": { "label": "Call Now - 020 1234 5678", "href": "tel:+442012345678" },
+    "secondary": { "label": "Get a Fast Quote", "href": "contact.html#quote" },
+    "formCta": { "label": "Get Free Quote", "href": "#" }
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "badge": "Available 24/7",
+        "title": "Fast, Friendly Service from",
+        "accent": "Trusted Local Experts",
+        "description": "Don't wait for small problems to become big headaches. Get professional, reliable home services with transparent pricing and guaranteed satisfaction.",
+        "features": [
+          "15+ Years Experience",
+          "Fully Licensed & Insured",
+          "100% Satisfaction Guarantee",
+          "Same-Day Emergency Service"
+        ],
+        "ctaPrimary": "Call Now - 020 1234 5678",
+        "ctaSecondary": "Get a Fast Quote",
+        "footerText": "Serving Greater London for over 15 years"
+      },
+      "form": {
+        "title": "Get Your Free Quote",
+        "description": "Request your free, fast quote - we'll call you back quickly during business hours.",
+        "fields": {
+          "name": "Your Name",
+          "phone": "Phone",
+          "email": "Email",
+          "postcode": "Postcode",
+          "message": "Tell us about your project..."
+        },
+        "cta": "Get Free Quote",
+        "disclaimer": "No obligation. Completely free consultation."
+      },
+      "services": {
+        "title": "Our Expert Services",
+        "description": "Professional home services with guaranteed satisfaction. From emergency repairs to complete renovations, we deliver premium results every time.",
+        "items": [
+          { "icon": "🔧", "title": "Resin Driveways", "description": "Permeable, durable resin bound surfaces for modern driveways", "cta": "Request Quote →" },
+          { "icon": "🧱", "title": "Block Paving", "description": "Traditional and contemporary block paving solutions", "cta": "Request Quote →" },
+          { "icon": "🛣️", "title": "Tarmac Driveways", "description": "Cost-effective tarmac surfacing for residential driveways", "cta": "Request Quote →" },
+          { "icon": "🏢", "title": "Commercial Tarmac", "description": "Heavy-duty tarmac solutions for commercial properties", "cta": "Request Quote →" },
+          { "icon": "🏗️", "title": "Groundwork Services", "description": "Complete groundwork solutions for construction projects", "cta": "Request Quote →" },
+          { "icon": "⛏️", "title": "Excavation & Foundations", "description": "Professional excavation and foundation laying services", "cta": "Request Quote →" }
+        ]
+      },
+      "howItWorks": {
+        "title": "How It Works",
+        "description": "Getting professional home services has never been easier. Our streamlined process ensures you get quality results with minimal hassle.",
+        "steps": [
+          { "number": "01", "icon": "📞", "title": "Contact Us", "description": "Call us or fill out our quick form to describe your project needs. We respond within 15 minutes." },
+          { "number": "02", "icon": "📅", "title": "Free Assessment", "description": "We schedule a convenient time to visit your property and provide a detailed, no-obligation quote." },
+          { "number": "03", "icon": "✅", "title": "Expert Completion", "description": "Our certified professionals complete your project with premium materials and guaranteed workmanship." }
+        ]
+      },
+      "whyChooseUs": {
+        "title": "Why Choose Us?",
+        "description": "We're not just another home service company. We're your trusted local experts committed to delivering exceptional results.",
+        "features": [
+          { "icon": "🛡️", "title": "Fully Licensed & Insured", "description": "Complete peace of mind with full public liability insurance and all required certifications." },
+          { "icon": "👷", "title": "Expert Craftsmen", "description": "Our team consists of certified professionals with over 15 years of combined experience." },
+          { "icon": "⏰", "title": "24/7 Emergency Service", "description": "Round-the-clock availability for urgent repairs and emergency situations." },
+          { "icon": "🏆", "title": "Quality Guarantee", "description": "All work comes with our comprehensive warranty and 100% satisfaction guarantee." }
+        ]
+      },
+      "certifications": {
+        "title": "Certified & Accredited",
+        "subtitle": "Trusted by thousands of customers across the UK",
+        "items": [
+          "Checkatrade Approved",
+          "Trustatrader Verified",
+          "Fully Insured up to £2M",
+          "15+ Years Experience",
+          "Free Quotes & Consultations",
+          "Local South London Specialists"
+        ]
+      },
+      "reviewsPreview": {
+        "title": "What Our Customers Say",
+        "description": "Don't just take our word for it. See why customers across South London trust us with their groundwork projects.",
+        "rating": { "stars": "⭐⭐⭐⭐⭐", "summary": "5 (104 reviews)" },
+        "items": [
+          { "stars": "⭐⭐⭐⭐⭐", "text": "\"Great service excellent communication, clean and very professional\"", "tag": "Block Paving", "customer": "Customer Review", "location": "South London", "href": "reviews.html" },
+          { "stars": "⭐⭐⭐⭐⭐", "text": "\"If I could rate 10 stars I would, as I am a very happy customer\"", "tag": "Resin Driveway", "customer": "Verified Customer", "location": "Beckenham", "href": "reviews.html" },
+          { "stars": "⭐⭐⭐⭐⭐", "text": "\"Excellent workmanship and professional service throughout\"", "tag": "Tarmac Driveway", "customer": "Local Resident", "location": "Croydon", "href": "reviews.html" }
+        ],
+        "cta": { "label": "View All Reviews →", "href": "reviews.html" }
+      },
+      "projectsPreview": {
+        "title": "Recent Jobs",
+        "description": "Latest completed projects delivering exceptional results for our clients",
+        "items": [
+          { "icon": "🔧", "title": "Modern Resin Driveway - Beckenham", "description": "Complete resin bound driveway installation with decorative borders" },
+          { "icon": "🧱", "title": "Block Paving Restoration - Bromley", "description": "Heritage block paving restoration maintaining original character" },
+          { "icon": "🛣️", "title": "Commercial Tarmac Surface - Croydon", "description": "Heavy-duty commercial tarmac surfacing for industrial facility" }
+        ],
+        "cta": { "label": "View All Projects →", "href": "projects.html" }
+      },
+      "faqsPreview": {
+        "title": "Frequently Asked Questions",
+        "description": "Got questions? We've got answers. Find everything you need to know about our services, pricing, and process.",
+        "items": [
+          { "question": "Do you provide free quotes and estimates?", "answer": "Yes, we provide completely free, no-obligation quotes for all our services. Simply contact us and we'll arrange a convenient time to assess your project and provide a detailed estimate." },
+          { "question": "Are you fully licensed and insured?", "answer": "Absolutely. We are fully licensed and carry comprehensive public liability insurance up to £2M. All our team members are certified professionals with the necessary qualifications." },
+          { "question": "What areas do you serve?", "answer": "We serve Greater London and the surrounding areas, including South East London, South London, and many other locations. Check our Areas page for a complete list, or contact us to see if we cover your location." },
+          { "question": "Do you offer emergency services?", "answer": "Yes, we offer 24/7 emergency services for urgent repairs and critical situations. Our team is available round-the-clock to help when you need us most." },
+          { "question": "What payment methods do you accept?", "answer": "We accept various payment methods including cash, bank transfer, and major credit/debit cards. Payment terms can be discussed during the quote process." }
+        ],
+        "cta": { "label": "View All FAQs →", "href": "faqs.html" }
+      },
+      "areasPreview": {
+        "title": "Areas We Serve",
+        "description": "Professional home services across Greater London. Serving local communities with pride for over 15 years.",
+        "columns": [
+          ["Camden", "Highgate", "Enfield", "Westminster", "King's Cross", "Highbury"],
+          ["Islington", "Finchley", "Hackney", "Marylebone", "Angel", "Stoke Newington"],
+          ["Hampstead", "Barnet", "Shoreditch", "Fitzrovia", "Canonbury", "Dalston"],
+          ["Clapham", "Putney", "Greenwich", "Dulwich", "Battersea", "Richmond"]
+        ],
+        "cta": { "label": "View All Areas →", "href": "areas.html" }
+      }
+    },
+    "services": {
+      "hero": {
+        "title": "Our Expert Services",
+        "subhead": "Professional home services with guaranteed satisfaction. From emergency repairs to complete renovations, we deliver premium results every time.",
+        "ctaPrimary": "Call Now - 020 1234 5678",
+        "ctaSecondary": "Request Free Quote"
+      },
+      "items": [
+        { "title": "Commercial Tarmac", "description": "Heavy-duty tarmac solutions for commercial properties", "cta": "Request Quote →" },
+        { "title": "Groundwork Services", "description": "Complete groundwork solutions for construction projects", "cta": "Request Quote →" },
+        { "title": "Excavation & Foundations", "description": "Professional excavation and foundation laying services", "cta": "Request Quote →" }
+      ],
+      "howItWorks": {
+        "title": "How It Works",
+        "description": "Getting professional home services has never been easier. Our streamlined process ensures you get quality results with minimal hassle."
+      }
+    },
+    "areas": {
+      "hero": {
+        "title": "Areas We Serve",
+        "subhead": "Professional home services across Greater London. Serving local communities with pride for over 15 years.",
+        "ctaPrimary": "Call Now - 020 1234 5678",
+        "ctaSecondary": "Request Free Quote"
+      },
+      "areas": [
+        ["Camden", "Highgate", "Enfield", "Westminster", "King's Cross", "Highbury", "Clapham", "Putney", "Greenwich", "Dulwich"],
+        ["Islington", "Finchley", "Hackney", "Marylebone", "Angel", "Stoke Newington", "Battersea", "Richmond", "Blackheath", "Bermondsey"],
+        ["Hampstead", "Barnet", "Shoreditch", "Fitzrovia", "Canonbury", "Dalston", "Wandsworth", "Wimbledon", "Lewisham", "London Bridge"]
+      ],
+      "cta": { "label": "Check Your Postcode", "href": "#" },
+      "map": { "title": "Find Us on Google", "subtitle": "Interactive map showing our service areas" }
+    },
+    "reviews": {
+      "hero": {
+        "title": "What Our Customers Say",
+        "subhead": "Don't just take our word for it. See why customers across South London trust us with their groundwork projects.",
+        "rating": { "stars": "⭐⭐⭐⭐⭐", "summary": "5 (104 reviews)" },
+        "ctaPrimary": "Call Now - 020 1234 5678",
+        "ctaSecondary": "Request Free Quote"
+      },
+      "items": [
+        { "text": "\"Great service excellent communication, clean and very professional\"", "tag": "Block Paving", "customer": "Customer Review", "location": "South London", "href": "#" },
+        { "text": "\"If I could rate 10 stars I would, as I am a very happy customer\"", "tag": "Resin Driveway", "customer": "Verified Customer", "location": "Beckenham", "href": "#" },
+        { "text": "\"Excellent workmanship and professional service throughout\"", "tag": "Tarmac Driveway", "customer": "Local Resident", "location": "Croydon", "href": "#" },
+        { "text": "\"Reliable, trustworthy team who delivered exactly what they promised\"", "tag": "Commercial Tarmac", "customer": "Property Owner", "location": "Bromley", "href": "#" },
+        { "text": "\"Outstanding attention to detail and competitive pricing\"", "tag": "Block Paving", "customer": "Homeowner", "location": "Greenwich", "href": "#" },
+        { "text": "\"Professional from start to finish, highly recommend\"", "tag": "Groundwork", "customer": "Customer", "location": "Lewisham", "href": "#" }
+      ]
+    },
+    "projects": {
+      "hero": {
+        "title": "Recent Jobs",
+        "subhead": "Latest completed projects delivering exceptional results for our clients across Greater London.",
+        "ctaPrimary": "Call Now - 020 1234 5678",
+        "ctaSecondary": "Request Free Quote"
+      },
+      "items": [
+        { "icon": "🔧", "title": "Modern Resin Driveway - Beckenham", "description": "Complete resin bound driveway installation with decorative borders" },
+        { "icon": "🧱", "title": "Block Paving Restoration - Bromley", "description": "Heritage block paving restoration maintaining original character" },
+        { "icon": "🛣️", "title": "Commercial Tarmac Surface - Croydon", "description": "Heavy-duty commercial tarmac surfacing for industrial facility" }
+      ]
+    },
+    "about": {
+      "hero": {
+        "title": "About Us",
+        "subhead": "Your trusted local experts committed to delivering exceptional results for over 15 years.",
+        "ctaPrimary": "Call Now - 020 1234 5678",
+        "ctaSecondary": "Request Free Quote"
+      },
+      "sections": [
+        {
+          "title": "Who We Are",
+          "paragraphs": [
+            "Grounddown Construction has been serving homeowners and businesses across Greater London for over 15 years. We started as a small local team with a simple mission: to provide reliable, professional home services that our customers can trust.",
+            "What sets us apart is our commitment to quality workmanship, transparent pricing, and exceptional customer service. We understand that your home is your most important investment, and we treat every project with the care and attention it deserves."
+          ]
+        },
+        {
+          "title": "Why Choose Us",
+          "paragraphs": [
+            "We're fully licensed and insured, carrying comprehensive public liability insurance up to £2M. Our team consists of certified professionals with years of combined experience in groundwork, driveways, and construction services. We're proud to be Checkatrade approved and Trustatrader verified, giving you complete peace of mind."
+          ]
+        },
+        {
+          "title": "Our Promise",
+          "paragraphs": [
+            "We stand behind every project we complete. If you're not satisfied, we'll make it right. Your satisfaction is our priority, and we won't consider a job done until you're completely happy with the results."
+          ]
+        }
+      ]
+    },
+    "faqs": {
+      "hero": {
+        "title": "Frequently Asked Questions",
+        "subhead": "Got questions? We've got answers. Find everything you need to know about our services, pricing, and process.",
+        "ctaPrimary": "Call Now - 020 1234 5678",
+        "ctaSecondary": "Request Free Quote"
+      },
+      "items": [
+        { "question": "Do you provide free quotes and estimates?", "answer": "Yes, we provide completely free, no-obligation quotes for all our services. Simply contact us and we'll arrange a convenient time to assess your project and provide a detailed estimate." },
+        { "question": "Are you fully licensed and insured?", "answer": "Absolutely. We are fully licensed and carry comprehensive public liability insurance up to £2M. All our team members are certified professionals with the necessary qualifications." },
+        { "question": "What areas do you serve?", "answer": "We serve Greater London and the surrounding areas, including South East London, South London, and many other locations. Check our Areas page for a complete list, or contact us to see if we cover your location." },
+        { "question": "Do you offer emergency services?", "answer": "Yes, we offer 24/7 emergency services for urgent repairs and critical situations. Our team is available round-the-clock to help when you need us most." },
+        { "question": "What payment methods do you accept?", "answer": "We accept various payment methods including cash, bank transfer, and major credit/debit cards. Payment terms can be discussed during the quote process." },
+        { "question": "Do you guarantee your work?", "answer": "Yes, all our work comes with a comprehensive warranty and our 100% satisfaction guarantee. We stand behind the quality of our workmanship and materials." },
+        { "question": "How quickly can you respond to an emergency call?", "answer": "For emergency calls, we aim to respond within 1-2 hours depending on your location. We prioritise urgent situations and will work to get to you as quickly as possible." },
+        { "question": "Do you work on weekends and bank holidays?", "answer": "Yes, we operate 24/7 including weekends and bank holidays. Emergency services are always available, and we can schedule non-urgent work on weekends if needed." },
+        { "question": "What is included in a free quote?", "answer": "Our free quotes include a detailed breakdown of work required, materials needed, labour costs, and a timeline for completion. There's no obligation to proceed after receiving your quote." },
+        { "question": "How long does a typical project take?", "answer": "Project timelines vary depending on the scope of work. Small repairs may take a few hours, while larger projects like driveways can take 1-2 weeks. We'll provide a detailed timeline in your quote." },
+        { "question": "Do you clean up after completing the work?", "answer": "Absolutely. We take pride in leaving your property clean and tidy. All debris and materials are removed, and we'll sweep and clean the work area before we leave." },
+        { "question": "Can I see examples of your previous work?", "answer": "Yes, you can view our recent projects on our Projects page. We're happy to provide references from previous customers in your area if requested." }
+      ]
+    },
+    "contact": {
+      "hero": {
+        "title": "Contact Us",
+        "subhead": "Still have questions? We're here to help. Get in touch for free quotes, emergency services, or general enquiries.",
+        "ctaPrimary": "Call Now - 020 1234 5678"
+      },
+      "blurb": "We're available 24/7 for emergencies and respond to all enquiries within 15 minutes during business hours.",
+      "details": {
+        "phone": "020 1234 5678",
+        "email": "info@grounddownconstruction.com",
+        "address": "23 Beckenham Rd, Beckenham BR3 4FE",
+        "serviceArea": "Greater London & Surrounding Areas"
+      },
+      "form": {
+        "title": "Request Your Free Quote",
+        "description": "Fill out the form below and we'll get back to you within 15 minutes during business hours.",
+        "selectOptions": [
+          "Resin Driveways",
+          "Block Paving",
+          "Tarmac Driveways",
+          "Commercial Tarmac",
+          "Groundwork Services",
+          "Excavation & Foundations",
+          "Other"
+        ],
+        "cta": "Request Free Quote",
+        "disclaimer": "No obligation. Completely free consultation."
+      }
+    }
+  },
+  "structuredData": {
+    "localBusiness": {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Grounddown Construction",
+      "image": "",
+      "@id": "",
+      "url": "",
+      "telephone": "+442012345678",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "23 Beckenham Rd",
+        "addressLocality": "Beckenham",
+        "postalCode": "BR3 4FE",
+        "addressCountry": "GB"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "",
+        "longitude": ""
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "sameAs": []
+    }
+  }
+}
