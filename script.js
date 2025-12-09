@@ -49,10 +49,12 @@ document.addEventListener('DOMContentLoaded', function() {
     // Mobile menu toggle
     const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
     const nav = document.querySelector('.nav');
+    const header = document.querySelector('.header');
     
     if (mobileMenuToggle && nav) {
         mobileMenuToggle.addEventListener('click', () => {
             nav.classList.toggle('active');
+            mobileMenuToggle.setAttribute('aria-expanded', nav.classList.contains('active'));
         });
         
         // Close menu when clicking a link
@@ -60,7 +62,24 @@ document.addEventListener('DOMContentLoaded', function() {
         navLinks.forEach(link => {
             link.addEventListener('click', () => {
                 nav.classList.remove('active');
+                mobileMenuToggle.setAttribute('aria-expanded', 'false');
             });
+        });
+
+        // Close menu when tapping outside on mobile
+        document.addEventListener('click', (event) => {
+            if (nav.classList.contains('active') && header && !header.contains(event.target)) {
+                nav.classList.remove('active');
+                mobileMenuToggle.setAttribute('aria-expanded', 'false');
+            }
+        });
+
+        // Reset menu state when resizing to desktop
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768) {
+                nav.classList.remove('active');
+                mobileMenuToggle.setAttribute('aria-expanded', 'false');
+            }
         });
     }
     
@@ -77,6 +96,21 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+
+    // Ensure mobile CTA bar exists on every page
+    const ensureMobileCtaBar = () => {
+        if (!document.querySelector('.mobile-cta-bar')) {
+            const bar = document.createElement('div');
+            bar.className = 'mobile-cta-bar';
+            bar.innerHTML = `
+                <a href="tel:+442012345678" class="mobile-cta-call">Call Now</a>
+                <a href="contact.html#quote" class="mobile-cta-quote">Get Quote</a>
+            `;
+            document.body.appendChild(bar);
+        }
+    };
+
+    ensureMobileCtaBar();
     
     // Form submission handling
     const forms = document.querySelectorAll('form');
@@ -103,5 +137,4 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 });
-
 

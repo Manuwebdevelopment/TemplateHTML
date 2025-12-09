@@ -22,13 +22,14 @@ body {
 
 /* Header */
 .header {
-    background-color: #ffffff;
-    padding: 8px 0 10px;
+    background-color: rgba(255, 255, 255, 0.97);
+    padding: 10px 0 12px;
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 1400;
     box-shadow: 0 6px 18px rgba(0,0,0,0.06);
     border-bottom: 1px solid #e5e7eb;
+    backdrop-filter: blur(10px);
 }
 
 .header-content {
@@ -36,6 +37,7 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 16px;
+    position: relative;
 }
 
 .logo {
@@ -1643,9 +1645,8 @@ select.form-input {
     }
     
     .header-content {
-        flex-wrap: wrap;
-        position: relative;
-        gap: 10px;
+        flex-wrap: nowrap;
+        gap: 12px;
     }
     
     .logo {
@@ -1679,20 +1680,33 @@ select.form-input {
     }
     
     .nav {
-        display: none;
+        display: flex;
         order: 3;
-        width: 100%;
         flex-direction: column;
         gap: 0;
-        margin-top: 10px;
-        background-color: white;
-        border-top: 1px solid #e5e7eb;
-        padding: 10px 0;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        position: absolute;
+        top: calc(100% + 10px);
+        left: 0;
+        right: 0;
+        margin-top: 0;
+        background-color: #ffffff;
+        border: 1px solid #e5e7eb;
+        padding: 12px;
+        box-shadow: 0 12px 30px rgba(0,0,0,0.16);
+        border-radius: 14px;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-6px);
+        transition: opacity 0.2s ease, transform 0.2s ease;
+        max-height: 70vh;
+        overflow-y: auto;
+        z-index: 1500;
     }
     
     .nav.active {
-        display: flex;
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
     }
     
     .nav-link {
@@ -1706,9 +1720,7 @@ select.form-input {
     }
     
     .header-cta {
-        order: 1;
-        display: flex;
-        gap: 8px;
+        display: none;
     }
     
     .header-cta .btn {
@@ -1950,6 +1962,11 @@ select.form-input {
         gap: 20px;
     }
     
+    .areas-preview-content {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
     .areas-card,
     .map-card {
         padding: 20px;
@@ -2008,12 +2025,14 @@ select.form-input {
         bottom: 0;
         left: 0;
         right: 0;
-        z-index: 1000;
-        background-color: #f3f4f6;
-        padding: 12px 15px;
-        box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
-        gap: 10px;
+        z-index: 1400;
+        background-color: rgba(255, 255, 255, 0.96);
+        padding: 12px 16px;
+        box-shadow: 0 -8px 20px rgba(0, 0, 0, 0.08);
+        gap: 12px;
         align-items: center;
+        border-top: 1px solid #e5e7eb;
+        backdrop-filter: blur(8px);
     }
     
     .mobile-cta-call {
@@ -2021,7 +2040,7 @@ select.form-input {
         background-color: #1e40af;
         color: white;
         padding: 14px 20px;
-        border-radius: 8px;
+        border-radius: 12px;
         text-decoration: none;
         display: flex;
         align-items: center;
@@ -2030,6 +2049,7 @@ select.form-input {
         font-weight: 600;
         font-size: 16px;
         min-height: 50px;
+        box-shadow: 0 10px 20px rgba(30, 64, 175, 0.24);
     }
     
     .mobile-cta-call::before {
@@ -2042,7 +2062,7 @@ select.form-input {
         background-color: #f97316;
         color: white;
         padding: 14px 20px;
-        border-radius: 8px;
+        border-radius: 12px;
         text-decoration: none;
         display: flex;
         align-items: center;
@@ -2050,22 +2070,12 @@ select.form-input {
         font-weight: 600;
         font-size: 16px;
         min-height: 50px;
-    }
-    
-    .mobile-cta-menu {
-        width: 40px;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #6b7280;
-        font-size: 20px;
-        cursor: pointer;
+        box-shadow: 0 10px 20px rgba(249, 115, 22, 0.24);
     }
     
     /* Add padding to body to prevent content from being hidden behind CTA bar */
     body {
-        padding-bottom: 80px;
+        padding-bottom: 90px;
     }
     
     /* Hide regular footer on mobile (optional - you can keep it if you want) */
