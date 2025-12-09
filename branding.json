@@ -3,12 +3,17 @@
     "name": "Grounddown Construction",
     "fallbackInitials": "HS",
     "tagline": "Professional Home Services London",
+    "industry": "Groundwork & Driveways",
+    "voice": "Professional, trustworthy, responsive",
     "logo": {
+      "mode": "image",
       "display": "image",
       "url": "assets/logo/logo-placeholder.jpeg",
-      "alt": "Grounddown Construction logo"
+      "alt": "Grounddown Construction logo",
+      "text": "Grounddown Construction"
     },
     "colors": {
+      "paletteName": "deep-navy-orange",
       "primary": "#1e3a8a",
       "secondary": "#1e40af",
       "accent": "#f97316",
@@ -25,6 +30,34 @@
     "favicon": "assets/icons/favicon.jpeg",
     "logo": "assets/logo/logo-placeholder.jpeg"
   },
+  "palettes": [
+    {
+      "name": "deep-navy-orange",
+      "description": "Current theme (Groundwork/Construction)",
+      "primary": "#1e3a8a",
+      "secondary": "#1e40af",
+      "accent": "#f97316",
+      "accentAlt": "#38bdf8",
+      "background": "#ffffff",
+      "text": "#1f2937",
+      "muted": "#4b5563",
+      "gradientStart": "#1e3a8a",
+      "gradientEnd": "#1e40af"
+    },
+    {
+      "name": "clean-plumber-blue",
+      "description": "Alternative cool palette for trades like plumbing/electrical",
+      "primary": "#0b4f6c",
+      "secondary": "#155e75",
+      "accent": "#1d9bf0",
+      "accentAlt": "#10b981",
+      "background": "#f8fbff",
+      "text": "#0f172a",
+      "muted": "#475569",
+      "gradientStart": "#0b4f6c",
+      "gradientEnd": "#1d9bf0"
+    }
+  ],
   "navigation": {
     "items": [
       { "label": "Home", "href": "index.html" },
