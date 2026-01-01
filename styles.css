@@ -157,7 +157,7 @@ body {
 .hero {
     background-image:
         linear-gradient(135deg, rgba(15, 23, 42, 0.4), rgba(15, 23, 42, 0.4)),
-        url('assets/images/hero-background.jpeg');
+        url('assets/images/hero-background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
